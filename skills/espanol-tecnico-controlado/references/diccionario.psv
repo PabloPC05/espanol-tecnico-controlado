@@ -1,0 +1,174 @@
+# Diccionario del Español Técnico Controlado (ETC), v0.1 — núcleo inicial
+# Formato: palabra | categoría | sentido único aprobado | evitar | ejemplo
+# Categorías: V verbo, N nombre, ADJ adjetivo, ADV adverbio, FUNC palabra de función.
+# En «evitar», se separan los elementos con «;». Un elemento puede ser:
+#   - una palabra o frase literal: «tener que»
+#   - un verbo con «(v)»: «utilizar(v)» detecta infinitivo, presente, participio, gerundio, etc.
+#   - un prefijo con «*»: «finaliz*»
+# Principio: una palabra, un sentido, una categoría gramatical. Los ejemplos cumplen las reglas del propio estándar.
+# Variante de referencia: español de España. Instrucciones en imperativo de tú.
+#
+# --- VERBOS DE ACCIÓN ---
+abrir | V | dejar algo accesible o sin cerrar | destapar(v); desplegar(v) | Abre la tapa del equipo.
+cerrar | V | dejar algo sin paso o sin acceso | clausurar(v); taponar(v) | Cierra la ventana.
+añadir | V | poner algo más junto a lo que ya hay | agregar(v); incorporar(v); adjuntar(v); sumar(v) | Añade una línea a la lista.
+quitar | V | separar algo del lugar donde está | retirar(v); remover(v); extraer(v); sacar(v) | Quita el tornillo.
+poner | V | dejar algo en un lugar | colocar(v); situar(v); ubicar(v); depositar(v); emplazar(v) | Pon el archivo en la carpeta.
+mover | V | hacer que algo cambie de lugar | desplazar(v); trasladar(v); transportar(v) | Mueve el archivo a otra carpeta.
+borrar | V | quitar datos para que ya no existan | eliminar(v); suprimir(v); descartar(v); purgar(v) | Borra el archivo.
+copiar | V | hacer un duplicado | duplicar(v); clonar(v); replicar(v) | Copia el archivo.
+crear | V | hacer que algo nuevo exista | generar(v); elaborar(v); producir(v) | Crea una carpeta nueva.
+guardar | V | dejar datos en un lugar para usarlos después | almacenar(v); archivar(v); salvar(v); conservar(v); registrar(v) | Guarda el archivo.
+leer | V | ver y entender texto o datos | interpretar(v); consultar(v) | Lee el mensaje de error.
+escribir | V | poner texto o datos en un lugar | redactar(v); teclear(v); introducir(v); insertar(v) | Escribe tu nombre en el campo.
+enviar | V | hacer llegar algo a otra persona o equipo | mandar(v); remitir(v); transmitir(v); despachar(v) | Envía el mensaje.
+descargar | V | copiar un archivo desde un servidor a tu equipo | bajar(v); bajarse(v) | Descarga el archivo.
+instalar | V | poner un programa o un dispositivo en su sitio para usarlo | implantar(v); implementar(v) | Instala el programa.
+actualizar | V | cambiar un programa o dato por una versión más nueva | refrescar(v); renovar(v); upgradear(v) | Actualiza el programa.
+ejecutar | V | hacer que un programa funcione | correr(v); lanzar(v); invocar(v) | Ejecuta el programa.
+empezar | V | hacer la primera parte de una acción | comenzar(v); iniciar(v); arrancar(v); principiar(v) | Empieza el procedimiento.
+terminar | V | hacer la última parte de una acción | finalizar(v); concluir(v); acabar(v); culminar(v) | Termina el procedimiento.
+continuar | V | seguir con una acción que ya hacías | proseguir(v); reanudar(v); persistir(v) | Continúa con el paso siguiente.
+parar | V | hacer que algo deje de funcionar o de moverse | detener(v); frenar(v); interrumpir(v); cesar(v) | Para el motor.
+encender | V | dar corriente a un dispositivo | activar(v); habilitar(v) | Enciende el dispositivo.
+apagar | V | cortar la corriente de un dispositivo | desactivar(v); deshabilitar(v); inhabilitar(v) | Apaga el dispositivo.
+reiniciar | V | apagar un dispositivo y volver a encenderlo | resetear(v); reinicializar(v); rebootear(v) | Reinicia el ordenador.
+conectar | V | unir dos partes para que pasen corriente o datos | enlazar(v); vincular(v); acoplar(v) | Conecta el cable al ordenador.
+desconectar | V | separar dos partes que estaban conectadas | desenlazar(v); desvincular(v); desacoplar(v) | Desconecta el cable.
+pulsar | V | apretar una tecla o un botón físico | presionar(v); apretar una tecla; teclear(v) | Pulsa la tecla Intro.
+hacer clic | V | pulsar un botón del ratón sobre un elemento de la pantalla | clicar(v); pinchar(v); cliquear(v) | Haz clic en el botón Guardar.
+mostrar | V | hacer que se pueda ver | visualizar(v); presentar(v); exhibir(v) | El programa muestra un mensaje.
+mirar | V | dirigir los ojos a algo | observar(v); contemplar(v); examinar(v); inspeccionar(v) | Mira la pantalla.
+elegir | V | tomar una opción entre varias | seleccionar(v); escoger(v); optar por; designar(v) | Elige una opción.
+usar | V | hacer algo con un objeto para un fin | utilizar(v); emplear(v); hacer uso de; recurrir a; valerse de | Usa la herramienta correcta.
+buscar | V | intentar encontrar algo | localizar(v); rastrear(v); indagar(v) | Busca el archivo.
+comprobar | V | ver si algo cumple una condición | verificar(v); chequear(v); checkear(v); revisar(v); validar(v); constatar(v) | Comprueba que el cable esté conectado.
+medir | V | obtener un valor con un instrumento | cuantificar(v) | Mide la tensión.
+calcular | V | obtener un valor con operaciones matemáticas | computar(v) | Calcula la media.
+ajustar | V | cambiar una cantidad o una posición hasta que sea la correcta | regular(v); calibrar(v) | Ajusta el brillo de la pantalla.
+configurar | V | elegir los valores de las opciones de un programa o dispositivo | parametrizar(v); setear(v); personalizar(v) | Configura la red.
+cambiar | V | hacer que algo sea diferente | alterar(v); transformar(v); mutar(v) | Cambia el nombre del archivo.
+sustituir | V | poner una pieza nueva en lugar de otra | reemplazar(v); recambiar(v) | Sustituye el filtro.
+apretar | V | girar una pieza roscada hasta que quede firme | atornillar a fondo | Aprieta el tornillo.
+fijar | V | hacer que una pieza no se mueva | asegurar(v); sujetar(v); anclar(v); inmovilizar(v) | Fija el soporte a la pared.
+girar | V | hacer que algo dé vueltas alrededor de un eje | rotar(v); voltear(v) | Gira la llave a la derecha.
+limpiar | V | quitar la suciedad | higienizar(v); asear(v) | Limpia el filtro.
+llenar | V | poner un líquido en un depósito hasta el nivel indicado | rellenar(v) | Llena el depósito hasta la marca.
+vaciar | V | sacar todo el contenido de un recipiente | evacuar(v); desocupar(v) | Vacía el depósito.
+esperar | V | no hacer nada hasta que ocurra algo | aguardar(v); permanecer a la espera | Espera 10 segundos.
+repetir | V | hacer otra vez | reiterar(v); reproducir(v); rehacer(v) | Repite el paso 3.
+seguir | V | hacer lo que indica una instrucción | acatar(v); ceñirse a; atenerse a | Sigue las instrucciones.
+aumentar | V | hacer que una cantidad sea mayor | incrementar(v); elevar(v) | Aumenta el brillo.
+reducir | V | hacer que una cantidad sea menor | disminuir(v); decrementar(v); minimizar(v); rebajar(v) | Reduce la velocidad.
+subir | V | mover algo hacia arriba | ascender(v); izar(v) | Sube la palanca.
+# --- VERBOS DE ESTADO, MODALES Y DE EXPLICACIÓN ---
+deber | V | indicar obligación: «debes» | tener que; hay que; es necesario que; es obligatorio; se requiere; es preciso que; conviene que | Debes apagar el equipo antes de limpiarlo.
+poder | V | indicar que algo es posible o está permitido: «puedes» | es posible que; está permitido; cabe; ser capaz de | Puedes usar otro cable.
+necesitar | V | no poder hacer algo sin otra cosa | requerir(v); precisar(v); hacer falta; exigir(v) | Necesitas una llave.
+tener | V | poseer o contener | poseer(v); disponer de; contar con | El equipo tiene dos puertos.
+hay | V | indicar que algo existe en un lugar | existir(v); hallarse; encontrarse; figurar(v); constar(v) | Hay un error en la línea 3.
+causar | V | ser la causa de algo | provocar(v); originar(v); ocasionar(v); desencadenar(v) | Un cable roto causa el error.
+evitar | V | hacer que algo no ocurra | soslayar(v); eludir(v); sortear(v) | Evita los golpes.
+permitir | V | dejar que algo ocurra | autorizar(v); posibilitar(v); consentir(v) | El programa permite guardar archivos.
+mantener | V | hacer que algo siga igual | preservar(v); sostener(v) | Mantén pulsada la tecla.
+ocurrir | V | pasar un hecho | suceder(v); acontecer(v); producirse; tener lugar | El error ocurre al guardar.
+explicar | V | decir cómo o por qué ocurre algo para que se entienda | detallar(v); exponer(v); aclarar(v) | Explica el error.
+describir | V | decir cómo es algo | narrar(v); caracterizar(v) | Describe el problema.
+# --- NOMBRES: INFORMÁTICA ---
+archivo | N | conjunto de datos con un nombre, guardado en un ordenador | fichero; documento digital; file | Abre el archivo.
+carpeta | N | lugar donde se guardan archivos | directorio; folder | Crea una carpeta nueva.
+programa | N | conjunto de instrucciones que un ordenador ejecuta | software; aplicación; app; aplicativo; herramienta informática | Instala el programa.
+ordenador | N | equipo que ejecuta programas | computador; computadora; PC | Enciende el ordenador.
+móvil | N | teléfono que se lleva en la mano | celular; smartphone; teléfono inteligente | Apaga el móvil.
+dispositivo | N | objeto con una función técnica | aparato; artilugio; gadget; artefacto | El dispositivo no enciende.
+pantalla | N | parte del dispositivo que muestra imágenes | monitor; display; visor | Mira la pantalla.
+teclado | N | conjunto de teclas para escribir | keyboard | Conecta el teclado.
+tecla | N | pieza del teclado que se pulsa | pulsador del teclado | Pulsa la tecla Esc.
+ratón | N | dispositivo que mueve el puntero en la pantalla | mouse | Mueve el ratón.
+botón | N | elemento que se pulsa para hacer una acción | pulsador; botón de acción | Haz clic en el botón.
+ventana | N | zona de la pantalla que muestra un programa | panel; pantalla emergente; popup | Cierra la ventana.
+menú | N | lista de opciones de un programa | desplegable; listado de opciones | Abre el menú Archivo.
+opción | N | elemento que se elige en un menú o en una lista | alternativa; posibilidad | Elige otra opción.
+campo | N | espacio de un formulario donde se escribe un dato | casilla de texto; input | Escribe tu nombre en el campo.
+enlace | N | texto o imagen que lleva a otra página | vínculo; hipervínculo; link | Haz clic en el enlace.
+correo | N | mensaje que se envía por internet | email; e-mail; mail; correo electrónico | Envía un correo.
+contraseña | N | texto secreto que permite entrar en una cuenta | clave; password; código secreto | Escribe la contraseña.
+cuenta | N | registro de un usuario en un servicio | perfil; login | Crea una cuenta.
+versión | N | forma de un programa en un momento dado | release; edición | Descarga la versión nueva.
+red | N | conjunto de dispositivos conectados | networking | Conecta el ordenador a la red.
+cable | N | hilo que lleva corriente o datos | cableado; conductor | Desconecta el cable.
+dato | N | valor que un programa puede tratar | registro de datos | El programa guarda los datos.
+lista | N | conjunto de elementos en orden | listado; relación | Añade una línea a la lista.
+tabla | N | datos en filas y columnas | cuadro; matriz | Crea una tabla.
+fila | N | línea horizontal de una tabla | renglón; registro | Borra la fila.
+columna | N | línea vertical de una tabla | campo de la tabla | Añade una columna.
+# --- NOMBRES: PROCEDIMIENTO Y EXPLICACIÓN ---
+procedimiento | N | lista de pasos que se hacen en orden | protocolo; metodología; rutina; operativa | Sigue el procedimiento.
+paso | N | una acción de un procedimiento | etapa; fase; operación; trámite | Repite el paso 3.
+instrucción | N | texto que dice qué hacer | indicación; directriz; orden; pauta | Lee la instrucción.
+requisito | N | cosa que debe existir o cumplirse antes | prerrequisito; precondición; exigencia | Este es el requisito para instalar el programa.
+resultado | N | lo que se obtiene al terminar una acción | output; desenlace | Lee el resultado.
+problema | N | cosa que impide el trabajo normal | inconveniente; contratiempo; incidencia; issue | El problema es el cable.
+error | N | resultado incorrecto de un programa o de un proceso | fallo; falla; bug | El programa muestra un error.
+avería | N | daño en un dispositivo que impide su funcionamiento | desperfecto; falla técnica | La avería está en el motor.
+causa | N | hecho que produce otro hecho | origen; raíz | La causa es un cable roto.
+solución | N | acción que resuelve un problema | remedio; arreglo; apaño; workaround | La solución es sustituir el cable.
+advertencia | N | texto que avisa de un riesgo de daño a personas | aviso de peligro; alerta de seguridad | Lee la advertencia antes del paso 1.
+precaución | N | texto que avisa de un riesgo de daño a equipos o datos | aviso de cuidado; nota de cuidado | Lee la precaución antes de borrar.
+mensaje | N | texto que una persona o un programa envía | notificación; aviso | El programa muestra un mensaje.
+ejemplo | N | caso que sirve para entender una regla | modelo; caso de muestra | Este es un ejemplo.
+objetivo | N | cosa que se quiere conseguir | meta; finalidad; propósito; target | El objetivo es reducir el tiempo.
+riesgo | N | posibilidad de daño | amenaza; contingencia; peligrosidad | Hay riesgo de descarga.
+usuario | N | persona que usa un programa o un dispositivo | operador; consumidor; user | El usuario escribe su nombre.
+persona | N | ser humano | individuo; sujeto; ente; humano | Una persona lee el manual.
+lugar | N | parte del espacio donde está algo | sitio; ubicación; emplazamiento; localización | Pon la caja en este lugar.
+parte | N | trozo de un todo que no es una pieza física | porción; fracción; segmento | Lee esta parte del texto.
+pieza | N | objeto físico que forma parte de un dispositivo | componente; elemento; módulo | Sustituye la pieza.
+herramienta | N | objeto que se usa con las manos para trabajar | utensilio; instrumento | Usa la herramienta correcta.
+tornillo | N | pieza roscada que une dos partes | perno; bulón | Aprieta el tornillo.
+número | N | símbolo o cifra que expresa una cantidad | cifra; guarismo | Escribe el número.
+cantidad | N | cuánto hay de algo | volumen; magnitud | Comprueba la cantidad de aceite.
+valor | N | número que mide algo | magnitud; parámetro | Escribe el valor.
+nivel | N | altura de un líquido o grado de una cantidad | cota; escalón | Comprueba el nivel de aceite.
+límite | N | valor máximo o mínimo permitido | tope; umbral; cota | No pases el límite.
+tamaño | N | cuánto ocupa algo | dimensión; magnitud | El tamaño del archivo es 2 MB.
+duración | N | tiempo que dura algo | lapso; transcurso | La duración es de 10 minutos.
+pregunta | N | frase que pide una respuesta | cuestión; interrogante | Lee la pregunta.
+respuesta | N | texto que contesta una pregunta | contestación; réplica | Escribe la respuesta.
+# --- ADJETIVOS ---
+correcto | ADJ | que cumple la regla o el valor esperado | adecuado; apropiado; acertado; idóneo | Usa el cable correcto.
+incorrecto | ADJ | que no cumple la regla o el valor esperado | inadecuado; inapropiado; erróneo | El valor es incorrecto.
+nuevo | ADJ | que existe desde hace poco | reciente; novedoso | Instala el filtro nuevo.
+viejo | ADJ | que existe desde hace mucho | antiguo; obsoleto; anticuado | Quita el filtro viejo.
+diferente | ADJ | que no es igual | distinto; dispar; diverso | Usa un cable diferente.
+igual | ADJ | que no es diferente | idéntico; equivalente; análogo | Los dos valores son iguales.
+posible | ADJ | que puede ocurrir | factible; viable; plausible | Hay una causa posible.
+necesario | ADJ | que no se puede omitir | imprescindible; indispensable; esencial; preciso | Este paso es necesario.
+importante | ADJ | que tiene mucho efecto | relevante; crucial; fundamental; trascendental | El paso 2 es importante.
+seguro | ADJ | sin riesgo de daño (no se usa con el sentido de «cierto») | inocuo; inofensivo | Este método es seguro.
+cierto | ADJ | que es verdad | veraz; fidedigno | La respuesta es cierta.
+preparado | ADJ | que ya se puede usar | listo; operativo; a punto | El equipo está preparado.
+grande | ADJ | que tiene un tamaño mayor de lo normal | enorme; extenso; voluminoso | Elige un archivo grande.
+pequeño | ADJ | que tiene un tamaño menor de lo normal | diminuto; minúsculo; reducido | Elige un archivo pequeño.
+rápido | ADJ | que tarda poco | veloz; ágil; raudo | El proceso es rápido.
+lento | ADJ | que tarda mucho | pausado; tardo; calmoso | El proceso es lento.
+lleno | ADJ | que no admite más contenido | colmado; repleto; saturado | El depósito está lleno.
+vacío | ADJ | que no tiene contenido | desocupado; hueco | El depósito está vacío.
+siguiente | ADJ | que viene después | posterior; ulterior | Haz el paso siguiente.
+anterior | ADJ | que viene antes | previo; precedente | Vuelve al paso anterior.
+último | ADJ | que no tiene nada después | postrero; final; terminal | Haz el último paso.
+# --- ADVERBIOS Y PALABRAS DE FUNCIÓN ---
+ahora | ADV | en este momento | actualmente; en la actualidad; en este momento; hoy en día | Ahora apaga el equipo.
+después | ADV | en un momento posterior | posteriormente; seguidamente; ulteriormente; luego | Después reinicia el equipo.
+antes | ADV | en un momento anterior | previamente; anteriormente; con anterioridad | Antes apaga el equipo.
+siempre | ADV | en todos los casos | constantemente; invariablemente; en todo momento | Siempre apaga el equipo.
+nunca | ADV | en ningún caso | jamás; en ningún momento | Nunca toques el cable.
+solo | ADV | y nada más | únicamente; exclusivamente; tan solo | Solo usa este cable.
+aproximadamente | ADV | con una diferencia pequeña respecto al valor dado | más o menos; alrededor de; en torno a | Espera aproximadamente 10 segundos.
+también | ADV | además de lo dicho | asimismo; igualmente | Comprueba también el cable.
+si | FUNC | introduce una condición: «si pasa A, haz B» | en caso de que; siempre que; a condición de que; en el supuesto de que; de ser así | Si el error continúa, reinicia el equipo.
+cuando | FUNC | introduce un momento: «cuando pasa A» | en el momento en que; al momento de | Cuando termine el programa, cierra la ventana.
+porque | FUNC | introduce una causa | dado que; puesto que; debido a que; ya que; a causa de que | El equipo no enciende porque el cable está roto.
+para | FUNC | introduce un fin | con el fin de; con objeto de; a fin de; con vistas a | Pulsa Intro para guardar.
+pero | FUNC | introduce una oposición | sin embargo; no obstante; empero; mas | Puedes usar este cable, pero es lento.
+por eso | FUNC | introduce una consecuencia | por consiguiente; por ende; en consecuencia; así pues | El cable está roto. Por eso sustitúyelo.
